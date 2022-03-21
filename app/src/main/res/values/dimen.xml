@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="small_font">16sp</dimen>
+    <dimen name="text_font">18sp</dimen>
+    <dimen name="medium_font">22sp</dimen>
+    <dimen name="large_font">22sp</dimen>
+    <dimen name="biggest_font">80sp</dimen>
+    <dimen name="huge_font">610sp</dimen>
+
+    <dimen name="massive_font">35sp</dimen>
+    <dimen name="colossal_font">40sp</dimen>
+
+    <dimen name="marginOne">-157sp</dimen>
+    <dimen name="marginTwo">-50sp</dimen>
+    <dimen name="padding">12sp</dimen>
+
+</resources>

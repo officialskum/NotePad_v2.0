@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ricepaper_background"
+    tools:context=".Controller.NoteEditActivity">
+
+    <EditText
+        android:id="@+id/editText_title"
+        android:drawableStart="@drawable/ic_baseline_notes"
+        android:drawablePadding="@dimen/padding"
+        android:hint="@string/Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText"
+        android:hint="@string/Note"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/huge_font"
+        android:gravity="top|start"
+        android:padding="@dimen/colossal_font"/>
+
+    <ImageButton
+        android:id="@+id/btn_save"
+        android:src="@drawable/ic_baseline"
+        android:drawableStart="@drawable/ic_baseline"
+        android:layout_width="@dimen/biggest_font"
+        android:layout_height="@dimen/biggest_font"
+        android:text="@string/Save"
+        android:layout_gravity="right"
+        android:background="@null"
+        app:tint="@color/purple_500" />
+
+</LinearLayout>
